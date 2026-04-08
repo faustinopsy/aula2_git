@@ -26,3 +26,8 @@ git branch nome_que_voce_quiser
  ex mudar
  git checkout v2
 
+### frameworks css
+https://getbootstrap.com/
+https://bulma.io/
+https://materializecss.com/
+https://www.w3schools.com/
