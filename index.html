@@ -2,10 +2,9 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 2</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=3.0">
     <meta name="description" content="Page description">
     <meta name="keywords" content="keyword1, keyword2">
     <meta property="og:title" content="Page Title">
@@ -32,6 +31,19 @@ id      prefixo do nome é hash  ex   #botao-form (obs. id somente UM dentro do 
 -->
 <body>
     <header>
+        <nav class="nav-mobile">
+            <ul>
+                <li class="botao-mob">
+                    <a href="#">Inicial</a>
+                </li>
+                <li class="botao-mob">
+                    <a href="#">Serviços</a>
+                </li>
+                <li class="botao-mob">
+                    <a href="#">Contato</a>
+                </li>
+            </ul>
+        </nav>
         <nav class="nav-top">
             <a href="index.html">
                 <img src="img/cloud.svg" alt="aqui é o logo do site" class="logo">
@@ -98,7 +110,7 @@ id      prefixo do nome é hash  ex   #botao-form (obs. id somente UM dentro do 
         <section>
 
         </section>
-        <section style="height: 400px; background-color: #06652e;">
+        <section style="height: 400px; background-color: #06652e;" id="foca-oculta">
             <img src="img/foca.jpg" width="300px" height="200px" alt="Imagem de uma foca" title="Foto de uma foca">
             
             <input type="text" >
@@ -107,5 +119,6 @@ id      prefixo do nome é hash  ex   #botao-form (obs. id somente UM dentro do 
     <footer >
 
     </footer>
+
 </body>
 </html>

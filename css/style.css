@@ -61,6 +61,9 @@ section{
     height: auto;
     box-shadow: 4px 3px 5px 0px black;
 }
+.card:hover{
+    transform: translateY(-4px);
+}
 .titulo{
     font-size: 20px;
     color: #06652e;
@@ -79,4 +82,49 @@ section{
 }
 .logo{
     width: 80px;
+}
+.nav-mobile{
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    box-shadow: 3px 5px;
+    background-color: #ffffff;
+}
+.botao-mob{
+    width: 80px;
+    height: 60px;
+    box-shadow: 0px 0px 3px 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* evento de passar o cursor */
+.botao-mob:hover{
+    background-color: green;
+}
+/* evento de clicar 
+translate
+y CIMA-BAIXO
+X DIREITA-ESQUERDA
+*/
+.botao-mob:active{
+    box-shadow:inset 0px -4px 3px 1px black;
+    transform: translateY(3px);
+}
+
+@media screen and (max-width: 768px) {
+    .nav-mobile{
+        display: flex;
+    }
+    .nav-top{
+        display: none;
+    }
+    #foca-oculta{
+        display: none;
+    }
 }
